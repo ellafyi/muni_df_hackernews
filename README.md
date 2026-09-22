@@ -26,3 +26,10 @@ npm run build
 ```
 
 `npm run package` creates a release zip in `artifacts/`
+
+mená sú pre screenshoty anonymizované
+
+![Discussion overview](docs/screenshots/discussion-overview.png)
+![All discussion pages loaded](docs/screenshots/all-pages-loaded.png)
+![Nested discussion thread](docs/screenshots/nested-thread.png)
+![Collapsed comments](docs/screenshots/collapsed-thread.png)
