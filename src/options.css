@@ -1,0 +1,12 @@
+:root { font-family: Verdana, Geneva, sans-serif; color: #000; background: #f6f6ef; }
+body { margin: 0; font-size: 13px; }
+main { max-width: 680px; margin: 42px auto; padding: 0 24px 30px; }
+header { display: flex; align-items: center; gap: 10px; background: #ff6600; padding: 8px 10px; }
+header span { display: grid; place-items: center; width: 19px; height: 19px; border: 1px solid #fff; color: #fff; }
+h1 { font-size: 16px; margin: 0; } h2 { font-size: 13px; margin-top: 26px; }
+p { line-height: 1.6; } form { background: #fff; padding: 14px; border: 1px solid #ddd; }
+label { display: block; margin-bottom: 7px; font-weight: bold; } form div { display: flex; gap: 8px; }
+input { flex: 1; min-width: 0; padding: 7px; border: 1px solid #aaa; font: inherit; } button { padding: 7px 11px; border: 1px solid #ad5500; background: #ff6600; cursor: pointer; font: inherit; }
+#message { min-height: 1.2em; color: #8b3a00; } ul { margin: 0; padding: 0; list-style: none; background: #fff; border: 1px solid #ddd; }
+li { display: flex; justify-content: space-between; align-items: center; padding: 9px 12px; border-bottom: 1px solid #eee; } li:last-child { border-bottom: 0; } li button { background: #fff; border-color: #bbb; padding: 4px 8px; }
+.notes { color: #444; font-size: 12px; }

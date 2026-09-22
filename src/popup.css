@@ -1,0 +1,11 @@
+:root { color: #000; font: 13px Verdana, Geneva, sans-serif; }
+body { width: 300px; margin: 0; background: #f6f6ef; }
+main { padding: 12px; }
+header { display: flex; align-items: center; gap: 7px; background: #ff6600; padding: 5px 7px; font-size: 14px; }
+.mark { display: inline-grid; place-items: center; width: 16px; height: 16px; box-sizing: border-box; border: 1px solid white; color: white; font-size: 12px; }
+.site { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin: 13px 0 10px; }
+.switch-row { display: flex; align-items: center; gap: 7px; cursor: pointer; }
+.switch-row input { accent-color: #ff6600; }
+.hint { color: #555; font-size: 11px; line-height: 1.45; }
+button { width: 100%; border: 1px solid #b9b9a9; background: #fff; padding: 6px; font: inherit; cursor: pointer; }
+button:hover { background: #fff4e8; }

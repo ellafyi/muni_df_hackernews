@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Forum Newsreader",
+  "version": "0.1.0",
+  "description": "Give IS MU discussions a calm Hacker News-inspired reading layout.",
+  "permissions": ["storage", "tabs"],
+  "action": {
+    "default_title": "Forum Newsreader",
+    "default_popup": "src/popup.html"
+  },
+  "options_page": "src/options.html",
+  "content_scripts": [
+    {
+      "matches": ["https://is.muni.cz/auth/discussion/*"],
+      "js": ["src/forum-newsreader.js"],
+      "css": ["src/forum-newsreader.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
