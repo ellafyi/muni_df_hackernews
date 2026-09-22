@@ -282,7 +282,7 @@
       const header = document.createElement('nav');
       header.id = 'fnr-masthead';
       header.setAttribute('aria-label', 'Diskuse');
-      header.innerHTML = '<span class="fnr-logo" aria-hidden="true">M</span><strong><a href="/auth/discussion/">MUNI News</a></strong><span class="fnr-navlinks"><a href="/auth/discussion/MU/">univerzita</a> | <a href="/auth/discussion/moje/">sledované</a> | <a href="/auth/discussion/predmetove/">předmětové</a> | <a href="/auth/discussion/oblibene/">oblíbené</a></span><button id="fnr-original" type="button">původní IS</button>';
+      header.innerHTML = '<span class="fnr-logo" aria-hidden="true">M</span><strong><a href="/auth/discussion/">MUNI Discussions</a></strong><span class="fnr-navlinks"><a href="/auth/discussion/MU/">univerzita</a> | <a href="/auth/discussion/moje/">sledované</a> | <a href="/auth/discussion/predmetove/">předmětové</a> | <a href="/auth/discussion/oblibene/">oblíbené</a></span><button id="fnr-original" type="button">původní IS</button>';
       const content = document.querySelector<HTMLElement>('#content');
       const originalButton = header.querySelector<HTMLButtonElement>('button');
       if (!content || !originalButton) return;
