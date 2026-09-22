@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ES2022",
+    "moduleDetection": "legacy",
+    "lib": ["DOM", "ES2022"],
+    "rootDir": ".",
+    "outDir": "dist",
+    "strict": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "skipLibCheck": true,
+    "types": ["chrome"]
+  },
+  "include": ["src/**/*.ts"]
+}
